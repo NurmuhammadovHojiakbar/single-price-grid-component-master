@@ -1,0 +1,105 @@
+/*Normalize Css ni ulash kerak*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: aquamarine;
+}
+
+.price-grid{
+    display: inline-block;
+    background-color: teal;
+    width: 700px;
+    margin-top: 5%;
+    margin-left: 25%;   
+    border-radius: 10px; 
+}
+
+.top{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.tatatan{
+    display: flex;
+}
+
+.left, .right{
+    padding: 30px;
+    width: 50%;
+}
+.left{
+    background-color: #1687a7;
+    border-bottom-left-radius: 10px;
+}
+.right{
+    background-color: #75cfb8;
+    border-bottom-right-radius: 10px;
+}
+.join{
+    color: #1687a7;
+}
+
+.day{
+    font-weight: 700;
+    color: #295939;
+    margin: 25px auto;
+}
+
+.advice{
+    color: #5b6d5b;
+}
+
+.monthly-why{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.cost{
+    color: #f4eec0;
+    margin: 15px auto;
+}
+
+span{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn{
+    color: #fff;
+    font-weight: 600;
+    background-color: #4bc87f;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px ;
+}
+
+.reason{
+    font-size: .7rem;
+    color: #f4eec0;
+    line-height: 1.7;
+}
+
+/* Media Query */
+@media (max-width: 992px){
+    .price-grid{
+        width: 90%;
+        margin: 15px;
+    }
+    .tatatan{
+        display: block;
+    }
+    .left, .right{
+        width: auto;
+    }
+    
+}
